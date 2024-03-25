@@ -1,8 +1,8 @@
 # Components UI
-✨ Fast and customizable
-✨ Easy to use
-✨ It doesn't weigh too much
-✨ [Github project](https://github.com/dariomvg/components-ui)
+✨ Fast and customizable  
+✨ Easy to use  
+✨ It doesn't weigh too much  
+✨ [Github project](https://github.com/dariomvg/components-ui)  
 ## Getting started
 ### Installation
 ```bash
@@ -93,7 +93,7 @@ import {Button, Badge} from "components-ui"
 #### Toggle  
 
 ```js
-    <Toggle />
+    <Toggle onClick={yourFunction} />
 ```
 
 ## Props
@@ -106,7 +106,7 @@ import {Button, Badge} from "components-ui"
 | Collapse| title/bg/width  | bg = dark / light |
 | Modal  | titleButton| button title |
 | Loader  |   without props | - |
-| Toggle  | without props| - |
+| Toggle  | without props| onClick |
 
 ## Colors
    - violet
