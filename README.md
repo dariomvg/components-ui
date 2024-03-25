@@ -6,12 +6,12 @@
 ## Getting started
 ### Installation
 ```bash
-npm install components-ui
+npm install components-fast
 ```
 ### Usage
 Import your component and use it.
 ```js
-import {Button} from 'components-ui'
+import {Button} from 'components-fast'
  
 export default function GetButton () {
     return (
@@ -34,7 +34,7 @@ npm run dev
 
 ## Installation
 ```bash
-npm install components-ui
+npm install components-fast
 ```
 ### check if it has been installed correctly in your package.json
 ```bash
@@ -48,7 +48,7 @@ npm install components-ui
     "build": "vite build",
   },
   "dependencies": { 
-    "components-ui": "^0.0.1", // ←  here
+    "components-fast": "^0.0.1", // ←  here
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -58,7 +58,7 @@ npm install components-ui
 
 ## Imports
 ```bash
-import {Button, Badge} from "components-ui"
+import {Button, Badge} from "components-fast"
 ```
 
 ## Components  
