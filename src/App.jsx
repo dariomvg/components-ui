@@ -1,6 +1,7 @@
-
 function App() {
-  return <main className="wrapper"></main>;
+return <main className="wrapper">
+
+  </main>;
 }
 
 export default App;
