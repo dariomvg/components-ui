@@ -1,0 +1,49 @@
+.btn-modal {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.container-modal {
+  width: 100%;
+  height: 100vh;
+  background-color: #000000bc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+}
+.container-modal.active {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s;
+}
+
+.modal {
+  width: 500px;
+  height: auto;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #5e5e5e;
+}
+
+.close-modal {
+  text-align: end;
+  border: none;
+  background-color: transparent;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+}

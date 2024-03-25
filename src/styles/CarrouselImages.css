@@ -1,0 +1,26 @@
+.carrousel {
+  border: 1px solid #f0ffff;
+  position: relative;
+}
+.container-btn {
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  padding: 10px;
+  background: transparent;
+  transition: background 0.5s;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #f0ffff71;
+  transition: background 0.5s;
+}

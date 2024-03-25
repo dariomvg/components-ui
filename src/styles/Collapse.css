@@ -1,0 +1,38 @@
+.container {
+  display: inline-block;
+  padding: 10px;
+  color: #fff;
+  background-color: #000000bf;
+  border-bottom: 1px solid #cfcfcf;
+  user-select: none;
+}
+
+.sec-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon {
+  cursor: pointer;
+}
+.title {
+  font-size: 18px;
+}
+
+.content {
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+  font-size: 16px;
+  color: #cfcfcf;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.visible .content {
+  opacity: 1;
+  visibility: visible;
+  height: auto;
+  padding-top: 16px;
+  transition: all 0.3s;
+}
