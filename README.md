@@ -1,4 +1,4 @@
-# Components UI
+# Components fast
 ✨ Fast and customizable  
 ✨ Easy to use  
 ✨ It doesn't weigh too much  
